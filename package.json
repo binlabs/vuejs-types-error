@@ -1,0 +1,33 @@
+{
+  "name": "vuejs-types-error",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/binlabs/vuejs-types-error#readme",
+  "bugs": {
+    "url": "https://github.com/binlabs/vuejs-types-error/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binlabs/vuejs-types-error.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "cem analyze",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.11.0",
+    "@types/node": "^26.1.0",
+    "@wc-toolkit/vuejs-types": "^1.0.0",
+    "glob": "^13.0.6",
+    "rollup-plugin-summary": "^3.0.1",
+    "typescript": "^5.5.3",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "lit": "^3.2.1"
+  }
+}
